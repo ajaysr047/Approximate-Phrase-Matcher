@@ -8,11 +8,11 @@ https://medium.com/@shivendra15/nlp-approximate-phrase-matching-5a7f79bef9b8
 https://www.youtube.com/watch?v=mUdo6w87rh4
 
 ### Packages
->pandas 
->fuzzywuzzy 
->nltk 
->python-levenshtein 
->flask
->flask-cors 
->flask-pymongo 
->dnspython 
+*pandas 
+*fuzzywuzzy 
+*nltk 
+*python-levenshtein 
+*flask
+*flask-cors 
+*flask-pymongo 
+*dnspython 
