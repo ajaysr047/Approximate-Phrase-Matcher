@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Approximate Phrase Matcher</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    </head>
+    <body>
+        <h2>Approximate Phrase Matching</h2>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Add new tag</h1>			
+			<input type="text" placeholder="Tag" id="newTag"/>
+			<button id="addNewTag">Add</button>   
+			<p id="availableTags"></p>
+			<p id="isPosted"></p>
+        </form>
+		
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Find Phrases</h1>
+	
+            <input type="text" placeholder="Input text" id="inputText"/>
+            
+			<button id="find">Find</button>
+			<p id="foundTags"></p>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Phrase Matcher</h1>
+				<p>Find phrases/tags in the input using Levenshtein distance</p>
+				<button class="ghost" id="slide">Find</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+                <h1>Phrase Matcher</h1>
+                <p>Add/View phrases to find from the input text</p>
+				
+				<button class="ghost" id="add/view">Add/View tags</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
