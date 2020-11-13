@@ -1,0 +1,96 @@
+robot
+home automation system
+Environmental monitoring 
+temperature sensor 
+energy meter 
+industrial internet of things 
+vehicle tracking system 
+Healthcare IOT
+wearables
+medical devices  
+IOT hardware
+car tracker
+vehicle tracker 
+kids monitoring solution 
+kids monitoring system
+cooking machine 
+ventilator 
+blood testing centrifuge
+IOT
+portable washing machine
+utensil cleaner
+soil testing apparatus 
+bread making device
+
+
+POST: 
+
+
+https://extracttags.herokuapp.com/addTag   
+Success:
+    request JSON body: 
+        {
+            "Tag" : "ECG"
+        }
+Failure:
+    {
+        "isPosted" : False,
+        "Message" : "Key error! required key: " + e.args[0] 
+    }
+
+https://extracttags.herokuapp.com/extractTags  
+Success:
+    {
+        "Tags": [
+            "ECG"
+        ],
+        "isSuccess": true
+    }
+Failure:
+    {
+        "Tags": [],
+        "isSuccess": false
+    }
+
+
+
+GET :
+https://extracttags.herokuapp.com/getAllTags   
+
+
+    response JSON body:
+    Success: 
+        {
+            "Tags": [
+                "IOT",
+                "robot",
+                "home automation system",
+                "Environmental monitoring",
+                "temperature sensor",
+                "energy meter",
+                "industrial internet of things",
+                "vehicle tracking system",
+                "Healthcare IOT",
+                "wearables",
+                "medical devices",
+                "IOT hardware",
+                "car tracker",
+                "vehicle tracker",
+                "kids monitoring solution",
+                "kids monitoring system",
+                "cooking machine",
+                "ventilator",
+                "blood testing centrifuge",
+                "portable washing machine",
+                "utensil cleaner",
+                "soil testing apparatus",
+                "bread making device",
+                "ECG"
+            ],
+            "isFetched": true
+        }
+    Failure:
+        {
+            "isFetched" : False,
+            "Message" : "Db error please check logs for more info!" 
+        }

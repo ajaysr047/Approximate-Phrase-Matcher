@@ -1,0 +1,10 @@
+flask
+flask-cors 
+flask_pymongo
+pandas
+fuzzywuzzy
+python-Levenshtein
+nltk
+dnspython
+uwsgi
+gunicorn

@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+fuzzywuzzy = "*"
+nltk = "*"
+python-levenshtein = "*"
+flask = "*"
+flask-cors = "*"
+flask-pymongo = "*"
+dnspython = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
