@@ -1,6 +1,7 @@
 # Approximate-Phrase-Matcher
 Simple phrase matcher flask app using Levenshtein distance, Front end is done with HTML, CSS and JS
 Database used: MongoDB
+The tags cannot be numbers
 
 ## Phrase Matcher code used
 https://medium.com/@shivendra15/nlp-approximate-phrase-matching-5a7f79bef9b8
