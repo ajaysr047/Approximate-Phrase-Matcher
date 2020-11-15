@@ -83,7 +83,7 @@ def addTags():
     
     try:
         tag = request.json['Tag']
-        if len(tag) == 0:
+        if len(tag) == 0 or tag.isnumeric():
             return jsonify({
             "isPosted" : False
         })

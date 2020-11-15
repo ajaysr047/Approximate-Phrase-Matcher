@@ -11,7 +11,6 @@ slide.addEventListener('click', () => {
 	document.getElementById("isPosted").innerHTML = "";
 });
 
-
 // https://extracttags.herokuapp.com/
 
 document.getElementById("addNewTag").onclick = function () {
@@ -48,7 +47,7 @@ var settings = {
 			  });
 		}
 		else
-			document.getElementById("isPosted").innerHTML = "Tag Successfully added!!";
+			document.getElementById("isPosted").innerHTML = "Tag not added!!";
 	});
 };
 
